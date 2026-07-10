@@ -1,0 +1,5 @@
+[08-Jul-2026 08:59:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'attendance_db.teachers' doesn't exist in C:\wamp64\www\attendance\login.php:19
+Stack trace:
+#0 C:\wamp64\www\attendance\login.php(19): PDO->prepare('SELECT * FROM t...')
+#1 {main}
+  thrown in C:\wamp64\www\attendance\login.php on line 19
