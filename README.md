@@ -92,3 +92,7 @@ The paper-and-ink ledger uses editorial type, restrained colour and rule-based l
 This release supports one teacher-owned roster per student account. It does not include school-wide administration, multiple-course enrolment, historical roster snapshots, password-reset email, offline check-in or biometrics. Reports distinguish “not recorded” from a verified absence; the current roster is not a historical enrolment snapshot.
 
 See [SECURITY.md](SECURITY.md) for the security model.
+
+## GitHub Pages preview
+
+The [public preview](https://brocoder007.github.io/attendance/) is a static showcase with synthetic data. Real sign-in, check-ins and saved attendance require the Node.js application and persistent SQLite storage described above. The preview source is in `docs/pages/`.
